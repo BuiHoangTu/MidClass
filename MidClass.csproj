@@ -58,14 +58,6 @@
     <Compile Include="AllUsers.Designer.cs">
       <DependentUpon>AllUsers.cs</DependentUpon>
     </Compile>
-    <Compile Include="DSProducts.cs">
-      <DependentUpon>DSProducts.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DSProducts.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DSProducts.xsd</DependentUpon>
-    </Compile>
     <Compile Include="OpenUrl.cs" />
     <Compile Include="DBAcess.cs" />
     <Compile Include="AdController.cs">
@@ -103,17 +95,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="DSProducts.xsc">
-      <DependentUpon>DSProducts.xsd</DependentUpon>
-    </None>
-    <None Include="DSProducts.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DSProducts.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="DSProducts.xss">
-      <DependentUpon>DSProducts.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
