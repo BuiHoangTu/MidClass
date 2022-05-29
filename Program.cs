@@ -8,6 +8,8 @@ namespace MidClass
 {
 	static class Program
 	{
+		//string path 
+		public static string conStr = System.IO.File.ReadAllText(@"..\..\ConnectionString.txt");
 		/// <summary>
 		/// The main entry point for the application.
 		/// </summary>

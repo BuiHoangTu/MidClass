@@ -17,8 +17,7 @@ namespace MidClass
         public SqlTransaction DbTran;
 
         // put connection string here
-        private static string strConnString = "Data Source=\"localhost, 1433\";User ID=sa;Password=\"Database 2019\";Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
-
+        private static string strConnString = Program.conStr;
 
 
         public void createConn()
